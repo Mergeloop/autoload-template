@@ -14,8 +14,9 @@
 Please run the following commands to get started:
 
 ```bash
-php artisan key:generate
 php -r "file_exists('.env') || copy('.env.example', '.env');"
+php artisan key:generate
+php -r "file_exists('database/database.sqlite') || touch('database/database.sqlite');"
 php artisan migrate:refresh --seed
 ```
 
