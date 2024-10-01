@@ -20,6 +20,8 @@ php -r "file_exists('database/database.sqlite') || touch('database/database.sqli
 php artisan migrate:refresh --seed
 ```
 
+Now follow the normal [installation guide for Autoload here](https://autoload.dev/docs/getting-started/installation)
+
 ---
 
 ## About Laravel
